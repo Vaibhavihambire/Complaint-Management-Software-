@@ -28,9 +28,10 @@ Follow these steps to set up the project locally:
    ```
    Note : Make sure this project is in xampp/htdocs/this_project_folder 
 
-5. Navigate to `localhost/phpmyadmin` on browser, create a database named `cms`, and import the `cms.sql` file from the `/database` folder.
+5. Set up the database:
+   Navigate to `localhost/phpmyadmin` on browser, create a database named `cms`, and import the `cms.sql` file from the `/database` folder.
 
-6. Run the project in your browser:
+7. Run the project in your browser:
    ```
    http://localhost/cms/web/
    ```
@@ -39,6 +40,17 @@ Follow these steps to set up the project locally:
 - **User Registration/Login**: Users can log in, submit, and track complaints.
 - **Admin Access**: Admins can log in to manage complaints, assign roles (engineers, employees, admins), and track complaint status.
 - **Engineer Role**: Engineers can log in, take action on complaints and manage them.
+
+## Project Structure
+
+- **/config** - Configuration files for the application.
+- **/controllers** - Contains the controllers managing requests and responses.
+- **/models** - Data models representing the complaint system's entities.
+- **/views** - View files responsible for rendering the frontend.
+- **/database** - Contains the database schema or SQL setup file.
+
+## Contributing
+Feel free to fork the repository and contribute. Submit pull requests with well-documented code and clear explanations.
 
 ## Contact
 If you have any questions or need further assistance, feel free to reach out:
